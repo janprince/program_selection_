@@ -1,6 +1,6 @@
-Flask==2.2.3
-matplotlib==3.7.1
-numpy==1.24.2
-pandas==2.0.0
+Flask
+matplotlib
+numpy
+pandas
 scikit-learn==1.0.2
 
