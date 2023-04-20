@@ -10,6 +10,9 @@ def hello_world():
     print(args.to_dict())
     query_dict = args.to_dict()
 
+    if len(query_dict) != 9:
+        return {"status": "error", "message": "length of arguments must be 9"}
+
     # convert some str to int
     query_dict["grade_aggregate"] = int(query_dict.get("grade_aggregate"))
     query_dict["age"] = int(query_dict.get("age"))
