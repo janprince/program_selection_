@@ -10,7 +10,6 @@ def encode_features(query_df):
     """
     # select categorical columns
     categorical_cols = query_df.select_dtypes("object").columns
-    print(categorical_cols)
 
     ohe = load("model/ohe.joblib")
 
@@ -49,19 +48,19 @@ def suggest_program(query_data):
     program = le.classes_[pred[0]]
 
     return program
-
-
-query_data = {
-    "gender": "Female",
-    "age": 21,
-    "grade_aggregate": 16,
-    "dream_job": "Museum Curator",
-    "fav_sub1": "Mathematics",
-    "fav_sub2": "Science",
-    "fav_sub3": "Mathematics",
-    "interest": "Technology",
-    "learning_style": "Logical",
-}
-
-suggested_program = suggest_program(query_data)
-print(suggested_program)
+#
+#
+# query_data = {
+#     "gender": "Female",
+#     "age": 21,
+#     "grade_aggregate": 16,
+#     "dream_job": "Museum Curator",
+#     "fav_sub1": "Mathematics",
+#     "fav_sub2": "Science",
+#     "fav_sub3": "Mathematics",
+#     "interest": "Technology",
+#     "learning_style": "Logical",
+# }
+#
+# suggested_program = suggest_program(query_data)
+# print(suggested_program)

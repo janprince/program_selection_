@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     args = request.args
-    print(args.to_dict())
+
     query_dict = args.to_dict()
 
     if len(query_dict) != 9:
