@@ -1,8 +1,10 @@
 from flask import Flask, request
 from util import suggest_program
+from flask_cors import CORS
 
 
 app = Flask(__name__)
+cors = CORS(app, origins="*")
 
 @app.route('/')
 def hello_world():
