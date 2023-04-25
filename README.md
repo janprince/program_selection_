@@ -1,14 +1,3 @@
-
-
-
-### Requirements
-
-This GitHub repo requires **git lfs**.
-- Install git lfs from the official site
-- Run `git lfs install`
-- Clone the repository
-- Run `pip install -r requirements.txt`
-
 # UniProgramRecommender
 
 **UniProgramRecommender** is a recommender system that predicts university programs for students based on their preferences, such as their WASSCE aggregate, favorite subjects, and other inputs. Our goal is to help students make informed decisions when choosing their academic path in higher education.
@@ -38,6 +27,13 @@ Use **UniProgramRecommender** to explore potential university programs that alig
 - [Website link](https://course-recommender-tool.vercel.app/) - Access the **UniProgramRecommender** platform to get personalized program recommendations.
 - [Dataset Link](https://docs.google.com/spreadsheets/d/1bvKuGSIe2YcQX1u8BkjXdC9gh1yAGJkqXxcuvd3Kc-A/edit#gid=1350298462) - Comprehensive dataset used for program recommendations in **UniProgramRecommender**.
 
+## Requirements
+
+This GitHub repo requires **git lfs**.
+- Install git lfs from the official site
+- Run `git lfs install`
+- Clone the repository
+- Run `pip install -r requirements.txt`
 
 ## Contributing
 
