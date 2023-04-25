@@ -12,8 +12,8 @@ def hello_world():
 
     query_dict = args.to_dict()
 
-    if len(query_dict) != 9:
-        return {"status": "error", "message": "length of arguments must be 9"}
+    if len(query_dict) != 8:
+        return {"status": "error", "message": "length of arguments must be 8"}
 
     # convert some str to int
     query_dict["grade_aggregate"] = int(query_dict.get("grade_aggregate"))
