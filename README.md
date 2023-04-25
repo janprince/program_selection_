@@ -26,6 +26,7 @@ Use **UniProgramRecommender** to explore potential university programs that alig
 - [Documentation Link](https://docs.google.com/document/d/11Vmn2fIoToMTCoPpEEwmv6_sB1f_-lYLFAKXu7jmJNc/edit) - Detailed documentation on the recommender system, its features, and how it works.
 - [Website link](https://course-recommender-tool.vercel.app/) - Access the **UniProgramRecommender** platform to get personalized program recommendations.
 - [Dataset Link](https://docs.google.com/spreadsheets/d/1bvKuGSIe2YcQX1u8BkjXdC9gh1yAGJkqXxcuvd3Kc-A/edit#gid=1350298462) - Comprehensive dataset used for program recommendations in **UniProgramRecommender**.
+- [Trained model](https://github.com/janprince/program_selection_/blob/main/model/model.pkl) - Trained model.
 
 ## Requirements
 
